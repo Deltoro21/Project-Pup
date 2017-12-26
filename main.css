@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding:0;
+
+}
+
+body {
+  margin:0;
+  font-family: Arial;
+  font-size: 17px;
+  color: #F69D3A;
+  line-height: 1.6;
+
+}
+
+#showcase {
+    background-image: url('../img/storefront2.jpg');
+    height:100vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+}
+
+#showcase h1 {
+    font-size: 50px;
+    line-height: 1.2;
+
+}
+
+#showcase p {
+    font-size: 20px;
+
+}
+
+#showcase .button {
+    font-size: 18px;
+    text-decoration: none;
+    color: #F69D3A;
+    border: #F69D3A 1px solid;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+#showcase .button:hover {
+    background: #F69D3A;
+    color: #fff;
+}
+
+#section-a {
+    padding: 20px;
+    background: #926239;
+    color: #F69D3A;
+    text-align: center;
+}
+
+#section-b {
+    padding: 20px;
+    background:#f4f4f4;
+    text-align: center;
+}
+
+#section-c {
+    display:flex;
+}
+
+#section-c .box-1, #section-c .box-3 {
+    background: #f9f9f9;
+    
+}
